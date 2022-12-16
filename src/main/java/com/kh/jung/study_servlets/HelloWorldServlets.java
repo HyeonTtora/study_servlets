@@ -12,6 +12,11 @@ import jakarta.servlet.http.HttpServletResponse;
 public class HelloWorldServlets extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+<<<<<<< HEAD
+=======
+       
+        String message = "HelloWorldServlets !! with MESSAGE !!";
+>>>>>>> e1613880aff3564fc7cbb34af0ba818ba5cce6c0
         PrintWriter printWriter = response.getWriter();
         String messege = "Hello World Servlets with Message! ";
         printWriter.println("<html lang='en'>");

@@ -1,12 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <title>Document</title>
   </head>
   <body>
     <div>index.html</div>
+    <div>
+      <a href='/helloWorldServlets?firstName=Sanghun&secondName=Oh'>helloWorldServlets?firstName=Sanghun&secondName=Oh</a>
+    </div>
+    <div>
+      <a href='/searchFormServlet'>searchFormServlet</a>
+    </div>
+    <div>
+      <a href='/tablesListServlets'>tablesListServlets</a>
+    </div>
+    <div>
+      <a href='/tablesBundleServlets'>tablesBundleServlets</a>
+    </div>
+    <div>
+      <a href='/tablesBeanListServlets'>tablesBeanListServlets</a>
+    </div>
+    <div>Form elment</div>
+    <div>
+      <form action='/helloWorldServlets' method='get'>
+        <!-- 키 -->
+        <input type='text' name='firstName' id='' value='Sanghun'> 
+        <input type='text' name='secondName' id='' value='Oh'>
+        <input type="hidden" name="hiddenParam" value="youjulab">
+        <button>helloWorldServlets</button>
+      </form>
+    </div>
+    <div>
+      <form action='/searchFormServlet' method='get'>
+        <button>searchFormServlet</button>
+      </form>
+    </div>
+    <div>
+      <form action='/tablesListServlets' method='get'>
+        <button>tablesListServlets</button>
+      </form>
+    </div>
+    <div>
+      <form action='/tablesBundleServlets' method='get'>
+        <button>tablesBundleServlets</button>
+      </form>
+    </div>
+    <div>
+      <form action='/tablesBeanListServlets' method='get'>
+        <button>tablesBeanListServlets</button>
+      </form>
+    </div>
   </body>
 </html>
